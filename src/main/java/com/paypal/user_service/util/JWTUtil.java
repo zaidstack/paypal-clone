@@ -12,8 +12,8 @@ import java.util.Map;
 
 @Component
 public class JWTUtil {
-
-    private static final String SECRET = "secret999secret999secret999secret999secret999secret999";
+         // Secret key should be greater than 32 character
+    private static final String SECRET = "secret123secret123secret123secret123secret123secret123";
 
 
     private Key getSigningKey() {
