@@ -12,7 +12,7 @@ import java.util.Map;
 
 @Component
 public class JWTUtil {
-
+         // Secret key should be greater than 32 character
     private static final String SECRET = "secret123secret123secret123secret123secret123secret123";
 
 
